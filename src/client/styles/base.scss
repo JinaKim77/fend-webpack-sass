@@ -1,4 +1,8 @@
-$background-color: lightblue;
+@import "footer";
+@import "form";
+@import "header";
+
+$background-color: lightpink;
 
 body {
     display: flex;

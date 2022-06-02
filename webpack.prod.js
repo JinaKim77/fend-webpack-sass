@@ -6,10 +6,6 @@ module.exports = {
     entry: './src/client/index.js',
     mode: 'production',
     devtool: 'source-map',
-    output: {
-        libraryTarget: 'var',
-        library: 'Client'
-    },
     module: {
         rules: [
             {
