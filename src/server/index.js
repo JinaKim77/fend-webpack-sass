@@ -13,6 +13,7 @@ app.get('/', function (req, res) {
 })
 
 // designates what port the app will listen to for incoming requests
+// This port number should be different from webpack dev port
 app.listen(8080, function () {
     console.log('Example app listening on port 8080!')
 })

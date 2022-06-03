@@ -7,7 +7,10 @@ import './styles/footer.scss'
 import './styles/form.scss'
 import './styles/header.scss'
 
-console.log(checkForName);
 
-alert("I EXIST")
-console.log("CHANGE!!");
+// Export these two JavaScript files into the Client Library,
+// then it's going to be the part of the Client library
+export {
+    checkForName,
+    handleSubmit
+}
